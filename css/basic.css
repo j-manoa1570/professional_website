@@ -1,0 +1,114 @@
+body{
+    font-family: Myriad Pro, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+.front_bg {
+    background-image: url("home_page_bg.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.main-content {
+    padding: 10px;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+//  height: 100%;
+//  padding-bottom: 100%;
+//  background-color: #FFFFFF;
+//  opacity: .90;
+//  box-shadow: 5px 5px 5px rgba(0, 0, 50, 0.06);
+//  border: .5px; 
+//  border-radius: 5px;
+}
+
+.left-content {
+    padding: 10px;
+    font-size: 10px;
+    flex: 1;
+}
+
+.right-content {
+    padding: 10px;
+    font-size: 10px;
+    flex: 1;
+}
+
+.header-flex {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-self: flex-start;
+    width: 80%;
+}
+
+.footer-flex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-self: center;
+    font-size: 8px;
+    width: 80%;
+}
+
+.column-flex {
+    display: flex;
+    flex-flow: column wrap;
+}
+.page-flex {
+    display: flex;
+    flex-flow: column;
+    margin-top: 50px;
+}
+
+header {
+    position: absolute;
+    margin: 0 -9999rem;
+    padding: 0.25rem 9999rem;
+    top: 0;  
+    font-size: 13px;
+    //background: rgb(250 235 215);
+}
+
+footer {
+    //position: absolute;
+    //bottom: 0;
+    width: 100%;
+    //background: rgb(250 235 215);
+    //box-shadow: 0 50vh 0 50vh rgb(250 235 215);
+}
+
+.padding {
+    padding: 0 .25rem 0 .25rem;
+    text-align: center;
+}
+
+.projects {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.project-img {
+    border: .5px;
+    max-width: 85%;
+    max-height: 85%;
+}

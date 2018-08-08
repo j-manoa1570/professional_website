@@ -1,0 +1,58 @@
+/* CSS Style Sheet */
+
+body {
+    margin: 0 auto;
+    font-family: Myriad Pro, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    color: #545454;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+.containerrow {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.containercol {
+    display:flex;
+    flex-flow: column nowrap;
+    width: 100%;
+}
+
+#messages {
+    margin: 30px;
+    color: aliceblue;
+}
+
+#standard {
+    background-color: #FFFFFF;
+    width: 95%;
+    margin: auto;
+}
+
+#center {
+    text-align: center;
+}
+
+#standardtext {
+    background-color: #000000;
+    border-radius: 5px;
+    width: 100%;
+    min-height: 500px;
+}
+
+#side {
+    background-color: antiquewhite;
+    width: 20%;
+    padding: 10px;
+}
+
