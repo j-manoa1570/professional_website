@@ -3,6 +3,10 @@ body{
     overflow-x: hidden;
 }
 
+p.font {
+    font-size: 13px;
+}
+
 .front_bg {
     background-image: url("../imgs/home_page_bg.jpg");
     min-height: 500px;
