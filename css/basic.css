@@ -4,7 +4,7 @@ body{
 }
 
 .front_bg {
-    background-image: url("home_page_bg.jpg");
+    background-image: url("../imgs/home_page_bg.jpg");
     min-height: 500px;
     background-attachment: fixed;
     background-position: top;
@@ -14,10 +14,12 @@ body{
 
 a:link {
     text-decoration: none;
+    color: blue;
 }
 
 a:visited {
     text-decoration: none;
+    color: blue;
 }
 
 .main-container {
@@ -63,17 +65,18 @@ a:visited {
 
 .footer-flex {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
     justify-content: center;
     align-self: center;
     font-size: 8px;
     width: 80%;
 }
-
-.column-flex {
+.items {
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: row nowrap;
+    justify-content: center;
 }
+
 .page-flex {
     display: flex;
     flex-flow: column;
@@ -86,15 +89,6 @@ header {
     padding: 0.25rem 9999rem;
     top: 0;  
     font-size: 13px;
-    //background: rgb(250 235 215);
-}
-
-footer {
-    //position: absolute;
-    //bottom: 0;
-    width: 100%;
-    //background: rgb(250 235 215);
-    //box-shadow: 0 50vh 0 50vh rgb(250 235 215);
 }
 
 .padding {
@@ -111,4 +105,36 @@ footer {
     border: .5px;
     max-width: 85%;
     max-height: 85%;
+}
+
+.footer-img {
+    display: flex;
+    max-height: 16px;
+    padding: 8px;
+}
+
+image-box {
+    display: flex;
+    max-height: 16px;
+    position: absolute;
+    padding: 8px;
+}
+
+/* These are for the logos in the footer */
+.grey {
+    filter: grayscale(1);
+}
+
+.grey:hover {
+    opacity: 0;
+    color: white;
+}
+
+.color {
+    position: absolute;
+    opacity: 0;
+}
+
+.color:hover {
+    opacity: 1;
 }
